@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Environment
+.env
+
+# NestJS API build output
+attendance-api/dist
+
+# agent scratch space
+.agents_tmp/

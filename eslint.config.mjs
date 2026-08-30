@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // The NestJS backend module has its own conventions and is linted/build
+    // separately — keep it out of the Next.js web lint.
+    "attendance-api/**",
   ]),
 ]);
 
